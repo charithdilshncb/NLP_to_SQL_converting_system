@@ -1,5 +1,5 @@
 import flask
-import nltk 
+import nltk
 from nltk.corpus import wordnet
 from nltk.stem.wordnet import WordNetLemmatizer
 from flask import request, jsonify
@@ -21,7 +21,6 @@ def get_wordnet_pos(word):
                 "R": wordnet.ADV}
 
     return tag_dict.get(tag, wordnet.NOUN)
-
 
 @app.route('/posTag',methods = ['GET'])
 def postTag():
