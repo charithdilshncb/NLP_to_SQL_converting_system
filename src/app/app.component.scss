@@ -1,0 +1,29 @@
+// app-footer{
+//     position: absolute;
+//     bottom:0;
+//     width:100%;
+//     height: 2.5rem;
+//     clear: both;
+//     text-align: center;
+//     background-color: darkgray;
+//     z-index: 1000;
+// }
+app-body {
+    height: 100%;
+    margin-bottom: 50px;
+    background-color: transparent;
+}
+
+.main-root {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+app-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+    
+}
